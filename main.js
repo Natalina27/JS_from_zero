@@ -29,6 +29,9 @@ let z = 6;
 let d = 7;
 bool = z < d;
 document.write(bool+"<br />");
+document.write("7%10"+" = " + 7%10+"<br />");
+document.write("10%7"+" = " + 10%7+"<br />");
+
 
 
 
