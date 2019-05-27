@@ -1,7 +1,8 @@
-let x = 7;
+let x = 6;
 let y = 7;
+let bool = true;
 // if else
-if (x < y) {
+if (x < y && bool) {
     document.write("x < y");
     document.write("<br />");
     document.write("4 < 5");
