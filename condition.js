@@ -1,5 +1,6 @@
 let x = 7;
 let y = 7;
+// if else
 if (x < y) {
     document.write("x < y");
     document.write("<br />");
@@ -13,6 +14,8 @@ if (x < y) {
 
 document.write("<br />");
 
+
+// switch
 let result = 9;
 switch (result){
     case 1:     document.write("result = 1"); break;
@@ -22,3 +25,10 @@ switch (result){
     case 5:     document.write("result = 5"); break;
     default:  document.write(" result unknown");
 }
+document.write("<br />");
+
+
+// ternary
+x > y ? document.write("Yes") : document.write("No");
+
+
