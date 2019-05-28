@@ -2,7 +2,7 @@ let x = 6;
 let y = 7;
 let bool = true;
 // if else
-if (x < y && bool) {
+if (x < y && bool || !bool) {
     document.write("x < y");
     document.write("<br />");
     document.write("4 < 5");
@@ -32,4 +32,12 @@ document.write("<br />");
 // ternary
 x > y ? document.write("Yes") : document.write("No");
 
+document.write("<br />");
 
+//Loops
+
+for(let i=0; i<=10; i++){
+    if(i%3 === 0 && i !== 0) continue;
+    if(i === 8) break;
+    document.write(i+"<br />");
+}
