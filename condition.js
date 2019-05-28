@@ -41,3 +41,11 @@ for(let i=0; i<=10; i++){
     if(i === 8) break;
     document.write(i+"<br />");
 }
+document.write("////////////<br />");
+let z=0;
+
+while(z < 10){
+    document.write(z+"<br />");
+    z+=3;
+
+}
