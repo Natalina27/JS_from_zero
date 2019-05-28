@@ -49,3 +49,9 @@ while(z < 10){
     z+=3;
 
 }
+document.write("////////////<br />");
+let k=0;
+do{
+    document.write("Loop is done");
+}
+while(k === 1);
